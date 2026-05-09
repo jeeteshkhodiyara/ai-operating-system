@@ -69,6 +69,48 @@ Do NOT use:
 Use GitHub Free tier with a private repository.
 
 ====================================================
+OBSIDIAN INTEGRATION
+====================================================
+
+Obsidian should act as the primary human-facing interface to the markdown memory system.
+
+Goals:
+- shared human/agent operational memory
+- human-readable long-term persistence
+- Git-backed version control
+- local-first knowledge management
+- interconnected operational context
+
+The Obsidian vault should contain:
+- memory files
+- operational logs
+- architecture notes
+- agent definitions
+- strategic thinking
+- research outputs
+- reflective memory
+- system documentation
+
+Governance requirements:
+- preserve human readability
+- avoid uncontrolled memory sprawl
+- maintain naming conventions
+- maintain archival discipline
+- separate append-only logs from curated memory
+
+Agent write permissions:
+- append-only access where possible
+- proposal-based updates for critical identity/configuration files
+- all mutations logged into DAILY_LOG.md
+
+Git integration should provide:
+- rollback capability
+- auditability
+- operational history
+- change review
+- memory lineage
+
+====================================================
 CAVEMAN MODE
 ====================================================
 
@@ -393,6 +435,7 @@ PHASE 1
 - Install Qwen3.6-27B
 - Configure Telegram
 - Configure GitHub repo
+- Configure Obsidian vault
 - Configure markdown memory
 - Configure System Monitor
 - Configure Memory Keeper
